@@ -1,0 +1,14 @@
+{
+  "name": "spotify-search-bookmarklet",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "jsdom": "^27.0.0",
+    "terser": "^5.44.0"
+  }
+}
